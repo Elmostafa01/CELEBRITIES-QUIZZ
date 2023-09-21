@@ -1,8 +1,10 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Creating Simple Quizz built with React, Loading these question from Fake API , asking user questions about some celebrities
 
-Currently, two official plugins are available:
+# Install Json-server
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+npm i json-server <br>
+go to package.json <br>
+add this script below to "scripts" <br>
+"server": "json-server --watch src/data/questions.json --port 8000"
