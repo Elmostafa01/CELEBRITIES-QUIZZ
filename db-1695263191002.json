@@ -1,0 +1,191 @@
+{
+  "questions": [
+    {
+      "question": "Which actor played the character of Tony Stark, also known as Iron Man, in the Marvel Cinematic Universe?",
+      "options": [
+        "Chris Hemsworth",
+        "Robert Downey Jr.",
+        "Chris Evans",
+        "Mark Ruffalo"
+      ],
+      "correctOption": 1,
+      "points": 1
+    },
+    {
+      "question": "Who is known for her role as Hermione Granger in the Harry Potter film series?",
+      "options": [
+        "Jennifer Lawrence",
+        "Scarlett Johansson",
+        "Emma Watson",
+        "Natalie Portman"
+      ],
+      "correctOption": 2,
+      "points": 1
+    },
+    {
+      "question": "Which musician released the album 'Thriller', which is the best-selling album of all time?",
+      "options": [
+        "Michael Jackson",
+        "Madonna",
+        "Elvis Presley",
+        "Prince"
+      ],
+      "correctOption": 0,
+      "points": 1
+    },
+    {
+      "question": "Who is the lead vocalist of the band Coldplay?",
+      "options": [
+        "Chris Martin",
+        "Bono",
+        "Dave Grohl",
+        "Mick Jagger"
+      ],
+      "correctOption": 0,
+      "points": 1
+    },
+    {
+      "question": "Which actress won an Academy Award for her role in the movie 'La La Land'?",
+      "options": [
+        "Meryl Streep",
+        "Cate Blanchett",
+        "Nicole Kidman",
+        "Emma Stone"
+      ],
+      "correctOption": 3,
+      "points": 1
+    },
+    {
+      "question": "Who is credited as the founder of modern physics and formulated the theory of relativity?",
+      "options": [
+        "Isaac Newton",
+        "Galileo Galilei",
+        "Nikola Tesla",
+        "Albert Einstein"
+      ],
+      "correctOption": 3,
+      "points": 10
+    },
+    {
+      "question": "Which philosopher is known for his work 'Meditations' and is considered one of the key figures in Western philosophy?",
+      "options": [
+        "Plato",
+        "Marcus Aurelius",
+        "Aristotle",
+        "Socrates"
+      ],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "Who wrote the book 'The Republic' and introduced the concept of the ideal state and philosopher-kings?",
+      "options": [
+        "Friedrich Nietzsche",
+        "Immanuel Kant",
+        "Plato",
+        "Jean-Jacques Rousseau"
+      ],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "Who is often referred to as the 'Father of Modern Philosophy' and wrote the famous phrase 'Cogito, ergo sum' ('I think, therefore I am')?",
+      "options": [
+        "John Locke",
+        "David Hume",
+        "René Descartes",
+        "Thomas Hobbes"
+      ],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "Who is the author of 'The Communist Manifesto' and is considered one of the most influential figures in socialist philosophy?",
+      "options": [
+        "Karl Marx",
+        "Friedrich Engels",
+        "Vladimir Lenin",
+        "Leon Trotsky"
+      ],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "Which inventor and scientist is credited with developing the theory of alternating current (AC) and is known for his contributions to the field of electricity?",
+      "options": [
+        "Thomas Edison",
+        "Alexander Graham Bell",
+        "Benjamin Franklin",
+        "Nikola Tesla"
+      ],
+      "correctOption": 3,
+      "points": 10
+    },
+    {
+      "question": "Who is the founder of psychoanalysis and developed theories about the unconscious mind, dreams, and the concept of the ego, superego, and id?",
+      "options": [
+        "Sigmund Freud",
+        "Carl Jung",
+        "Alfred Adler",
+        "Jean Piaget"
+      ],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "Which inventor and scientist is credited with developing the theory of alternating current (AC) and is known for his contributions to the field of electricity?",
+      "options": [
+        "Nikola Tesla",
+        "Thomas Edison",
+        "Alexander Graham Bell",
+        "Benjamin Franklin"
+      ],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "Who is the founder of psychoanalysis and developed theories about the unconscious mind, dreams, and the concept of the ego, superego, and id?",
+      "options": [
+        "Sigmund Freud",
+        "Carl Jung",
+        "Alfred Adler",
+        "Jean Piaget"
+      ],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "Who is considered the father of modern computer science and artificial intelligence and played a crucial role in breaking the Enigma code during World War II?",
+      "options": [
+        "Charles Babbage",
+        "John von Neumann",
+        "Alan Turing",
+        "Tim Berners-Lee"
+      ],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "Who is known as the 'Father of the Constitution' and was the principal author of the United States Constitution?",
+      "options": [
+        "George Washington",
+        "James Madison",
+        "Thomas Jefferson",
+        "Benjamin Franklin"
+      ],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "Who is the founder of the modern nursing profession and established the first nursing school?",
+      "options": [
+        "Florence Nightingale",
+        "Clara Barton",
+        "Mary Seacole",
+        "Dorothea Dix"
+      ],
+      "correctOption": 0,
+      "points": 10
+    }
+  ]
+}

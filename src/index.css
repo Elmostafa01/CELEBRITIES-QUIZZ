@@ -2,10 +2,10 @@
     --color-darkest: #343a40;
     --color-dark: #495057;
     --color-medium: #ced4da;
-    --color-light: #f1f3f5;
+    --color-light: #424242;
   
-    --color-theme: #1098ad;
-    --color-accent: #ffa94d;
+    --color-theme: #1678f8;
+    --color-accent: #f77e93;
   }
   
   @import url("https://fonts.googleapis.com/css2?family=Codystar&display=swap");
@@ -23,9 +23,10 @@
   }
   
   body {
+    background: url('./bg.jpg');
     min-height: 100vh;
     color: var(--color-light);
-    background-color: var(--color-darkest);
+    /*background-color: var(--color-darkest);*/
     padding: 3.2rem;
   }
   
