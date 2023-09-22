@@ -4,7 +4,7 @@ const StartScreen = ({numQuestions, dispatch}) => {
   return (
     <div className='start'>
       <h2>Welcome to ELM Quizz!</h2>
-      <h3>{numQuestions} question to test your AWS knowledge</h3>
+      <h3>{numQuestions} question to test your Cultural knowledge</h3>
       <button className='btn btn-ui' onClick={() => dispatch({ type: "start" })}>
         Let's start
       </button>
