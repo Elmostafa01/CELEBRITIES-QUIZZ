@@ -1,14 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ysabeau+SC:wght@900&display=swap');
 :root {
     --color-darkest: #343a40;
     --color-dark: #495057;
-    --color-medium: #ced4da;
+    --color-medium: #dad8ce;
     --color-light: #424242;
   
-    --color-theme: #1678f8;
-    --color-accent: #f77e93;
+    --color-theme: #8aff9a;
+    --color-accent: #ff5c5c;
+    --color-gold : rgb(255, 197, 51);
   }
-  
-  @import url("https://fonts.googleapis.com/css2?family=Codystar&display=swap");
+
   
   * {
     margin: 0;
@@ -23,11 +24,9 @@
   }
   
   body {
-    background: url('./bg.jpg');
-    min-height: 100vh;
-    color: var(--color-light);
-    /*background-color: var(--color-darkest);*/
-    padding: 3.2rem;
+    /*background: #353a63;*/
+    background-color: #232955;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%232C3369' stroke-width='2.4'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%234C5F9B'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E");    padding: 3.2rem;
   }
   
   .app {
@@ -46,7 +45,17 @@
     margin-bottom: 4rem;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    color: rgb(255, 197, 51);
+  }
+
+  .app-header>h1 {
+    font-family: 'Ysabeau SC', sans-serif;
+  }
+
+  .questions {
+    color: #fff;
+    text-shadow: 0 1px 8px #fff;
   }
   
   .error {
@@ -89,6 +98,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+  }
+
+  .start h3,h2{
+    color: #f1f1f1;
   }
   
   .progress {
@@ -107,20 +121,23 @@
     height: 12px;
     grid-column: 1 / -1;
   }
+
   
   ::-webkit-progress-bar {
-    background-color: var(--color-medium);
+    background-color: #f1f1f1;
     border-radius: 100px;
+    border: 2px solid #f1f1f1;
   }
   ::-webkit-progress-value {
-    background-color: var(--color-theme);
+    background-color: var(--color-gold);
     border-radius: 100px;
+    transition: .5s all;
   }
   
   .btn {
     display: block;
     font-family: inherit;
-    color: inherit;
+    color: #fff;
     font-size: 2rem;
     border: 2px solid var(--color-dark);
     background-color: var(--color-dark);
@@ -132,6 +149,7 @@
   
   .btn:not([disabled]):hover {
     background-color: var(--color-darkest);
+    color: #fff;
   }
   
   .btn-option:not([disabled]):hover {
@@ -144,6 +162,7 @@
   
   .btn-ui {
     float: right;
+    background-color: rgb(228, 170, 23);
   }
   
   .options {
@@ -156,6 +175,7 @@
   .btn-option {
     width: 100%;
     text-align: left;
+    font-family: 'Poppins', sans-serif;
   }
   
   .btn-option.correct {
@@ -182,6 +202,7 @@
     font-size: 2rem;
     font-weight: 500;
     margin-bottom: 1.6rem;
+    border: 2px solid var(--color-gold);
   }
   
   .result span {
@@ -195,6 +216,27 @@
     margin-bottom: 4.8rem;
   }
   
+  .restart-quizz {
+    background-color: var(--color-light);
+    color: #f1f1f1;
+    border-radius: 100px;
+    text-align: center;
+    padding: 2rem 0;
+    width: 300px;
+    margin-inline: auto;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 2.6rem;
+    cursor: pointer;
+    transition: .5s all;
+    outline: 0;
+    border: 0;
+  }
+
+  .restart-quizz:hover {
+    background: var(--color-darkest);
+  }
+
   .loader-container {
     display: flex;
     flex-direction: column;
@@ -206,57 +248,50 @@
     font-size: 1.4rem;
   }
   
-  .timer {
-    float: left;
-    font-size: 1.8rem;
-    color: var(--color-medium);
-    border: 2px solid var(--color-dark);
-    padding: 1.35rem 2.8rem;
-    border-radius: 100px;
-  }
-  
-  /* CREDIT: https://dev.to/afif/i-made-100-css-loaders-for-your-next-project-4eje */
   .loader {
-    width: 50px;
-    height: 24px;
-    background: radial-gradient(circle closest-side, currentColor 90%, #0000) 0%
-        50%,
-      radial-gradient(circle closest-side, currentColor 90%, #0000) 50% 50%,
-      radial-gradient(circle closest-side, currentColor 90%, #0000) 100% 50%;
-    background-size: calc(100% / 3) 12px;
-    background-repeat: no-repeat;
-    animation: loader 1s infinite linear;
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+    position: relative;
+  }
+  .loader::after,
+  .loader::before {
+    content: '';
+    width: 48px;
+    height: 48px;
+    border: 2px solid #FFF;
+    position: absolute;
+    left: 0;
+    top: 0;
+    box-sizing: border-box;
+    animation: rotation 2s ease-in-out infinite;
+  }
+  .loader::after {
+    border-color: var(--color-gold);
+    animation-delay: 1s;
   }
   
-  @keyframes loader {
-    20% {
-      background-position: 0% 0%, 50% 50%, 100% 50%;
+  @keyframes rotation {
+    0% {
+      transform: rotate(0deg);
     }
-    40% {
-      background-position: 0% 100%, 50% 0%, 100% 50%;
+    100% {
+      transform: rotate(360deg);
     }
-    60% {
-      background-position: 0% 50%, 50% 100%, 100% 0%;
-    }
-    80% {
-      background-position: 0% 50%, 50% 50%, 100% 100%;
-    }
-  }
+  } 
   
-  /* ********** */
-  /* First counter example */
-  .counter {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-    font-size: 2rem;
-    font-weight: bold;
-    margin: 6rem;
-  }
-  
-  .counter * {
-    font-size: inherit;
-    padding: 0.8rem;
+  @media (max-width: 393px ) {
+    html {
+      font-size: 40%;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    }
+    body {
+      margin-top: 20%;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      overflow: hidden;
+    }
   }
   
