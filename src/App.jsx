@@ -9,7 +9,6 @@ import Question from './components/Question';
 import NextButton from './components/NextButton';
 import Progress from './components/Progress';
 import FinishedScreen from './components/FinishedScreen';
-import RestartQuizz from './components/RestartQuizz';
 
 const initialState = {
   questions: [],
